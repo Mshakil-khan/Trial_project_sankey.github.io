@@ -1,0 +1,19 @@
+.select__test__wrapper {
+  width: 50%;
+}
+.test__wrapper:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.selected__test {
+  background-color: #7ebfff;
+}
+
+.selected__test:hover {
+  background-color: #7ebfff !important;
+}
+
+.dark {
+  background-color: var(--light-primary);
+}

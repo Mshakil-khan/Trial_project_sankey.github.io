@@ -1,0 +1,7 @@
+.verified {
+  max-width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+}

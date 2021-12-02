@@ -1,0 +1,47 @@
+.display-none {
+  display: none !important;
+}
+
+.barsMenu {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+}
+
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1890ff;
+  position: relative;
+}
+
+.signout {
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .barsMenu {
+    display: inline-block;
+  }
+  .leftMenu,
+  .rightMenu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .menuCon {
+    position: relative !important;
+  }
+  .right-side {
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    position: absolute !important;
+  }
+}

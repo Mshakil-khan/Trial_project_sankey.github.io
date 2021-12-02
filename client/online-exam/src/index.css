@@ -1,0 +1,36 @@
+@import "~antd/dist/antd.css";
+
+html {
+  font-size: 2vw;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f763;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.container {
+  padding: 1em 20px 2em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .dashboard {
+    margin-top: 10vh;
+  }
+}
